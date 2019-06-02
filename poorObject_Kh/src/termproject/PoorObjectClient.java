@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class PoorObjectClient {
 	public void initiate() {
-		System.out.println("[클라이언트]서비스명과 문자열을 입력하세요");
+		System.out.println("[클라이언트]서비스명과 문자열을 입력하세요(ToLower [문자열] or ToUpper [문자열]");
 	}
 	public String getInput() {
 		Scanner scanner = new Scanner(System.in);
